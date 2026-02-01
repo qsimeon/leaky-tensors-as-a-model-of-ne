@@ -267,5 +267,3 @@ def create_model(model_type: str, **kwargs) -> nn.Module:
         return LeakyCNN(**kwargs)
     else:
         raise ValueError(f"Unknown model type: {model_type}")
-
-=
